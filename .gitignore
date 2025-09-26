@@ -1,0 +1,316 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Android/IntelliJ
+android/build/
+android/app/build/
+android/app/debug/
+android/app/release/
+android/.gradle/
+android/.idea/
+android/local.properties
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+!ios/*.xcworkspace/contents.xcworkspacedata
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Metro
+.metro-health-check*
+.metro-cache/
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+debug.log
+.vscode/.react/
+
+# Build
+build/
+dist/
+out/
+web-build/
+
+# Environment
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+Backend/.env
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Testing
+coverage/
+__tests__/coverage/
+.jest/
+jest-test-results.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+ENV/
+.env.*
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo/React Native
+.expo/
+.expo-shared/
+*.expo
+*.expo-shared
+*.DS_Store
+
+# Android
+android/app/build/
+android/build/
+*.apk
+*.ap_*
+*.dex
+*.class
+*.log
+*.keystore
+*.iml
+.gradle/
+local.properties
+captures/
+output.json
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile.properties.json
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdatad
+*.moved-aside
+*.xcconfig
+*.hmap
+*.ipa
+*.dSYM
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.aac
+*.flac
+*.ogg
+*.opus
+
+# Smartcontracts
+Smartcontracts/*.bin
+Smartcontracts/*.json
+
+# Backend
+Backend/__pycache__/
+Backend/*.pyc
+Backend/*.pyo
+Backend/*.pyd
+Backend/*.egg-info/
+Backend/dist/
+Backend/build/
+
+# Models
+Models/__pycache__/
+Models/*.pyc
+Models/*.pyo
+Models/*.pyd
+Models/*.egg-info/
+Models/dist/
+Models/build/
+Models/venv/
+Models/env/
+Models/.env
+Models/*.log
+Models/*.tmp
+Models/*.bak
+Models/*.orig
+Models/video.mp4
+
+# Assets
+assets/fonts/*.ttf
+assets/images/*.png
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.gif
+assets/images/*.svg
+assets/images/*.ico
+assets/images/*.webp
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
+
+# Ignore test outputs
+test-output/
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Android generated resources (keep only original, ignore generated sizes)
+android/app/src/main/res/drawable-hdpi/
+android/app/src/main/res/drawable-mdpi/
+android/app/src/main/res/drawable-xhdpi/
+android/app/src/main/res/drawable-xxhdpi/
+android/app/src/main/res/drawable-xxxhdpi/
+android/app/src/main/res/mipmap-hdpi/
+android/app/src/main/res/mipmap-mdpi/
+android/app/src/main/res/mipmap-xhdpi/
+android/app/src/main/res/mipmap-xxhdpi/
+android/app/src/main/res/mipmap-xxxhdpi/
+
+# Ignore IDE files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Ignore secrets
+secrets.env
+*.secret
+
+# Ignore generated files
+*.generated
+
+# Backup and temporary files
+*.new
+*.backup
+*.old
+
+# Large binary files that can be regenerated
+gradle-wrapper.jar
+
+# End of file
+app-example/
+google-services.json
+GoogleService-Info.plist
+
+# React Native specific
+*.bundle
+*.map
+.watchmanconfig
+index.android.bundle
+index.ios.bundle
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# CocoaPods
+ios/Pods/
+ios/Podfile.lock
