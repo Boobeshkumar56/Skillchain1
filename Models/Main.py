@@ -103,7 +103,7 @@ Return the result in JSON format with keys:
 """
 
     payload = {"contents": [{"parts": [{"text": prompt_text}]}]}
-    headers = {"Content-Type": "application/json", "X-Goog-Api-Key": AIzaSyDzBsP9iA21qepnVd8PIdQad3CisrX0V-Q}
+    headers = {"Content-Type": "application/json", "X-Goog-Api-Key": }
 
     try:
         response = requests.post(url, headers=headers, json=payload, timeout=30)
